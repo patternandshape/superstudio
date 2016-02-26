@@ -21,6 +21,7 @@ A responsive blog template which utilizes Sass and Bourbon.
 * Terminal
 * Google Fonts API
 
+#####SUPERSTUDIO can be viewed at http://patternandshape.github.io/superstudio
 
 ##### License
 
