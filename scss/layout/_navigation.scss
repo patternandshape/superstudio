@@ -1,1 +1,7 @@
-
+.top {
+  li {
+    @extend %nav-style;
+    display: inline;
+    padding-right: 1.5em;
+  }
+}

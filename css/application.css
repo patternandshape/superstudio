@@ -20,18 +20,47 @@ body {
 
 a {
   text-decoration: none;
-  color: #000; }
+  color: #000;
+  font-weight: bold; }
   a:hover {
     color: #FF3800; }
 
 ul {
   list-style: none; }
 
-li {
-  display: inline; }
+table {
+  border-collapse: collapse;
+  width: 25vw; }
+  table th {
+    border: 1px solid #000;
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    text-align: left; }
+  table td {
+    border: 1px solid #000;
+    padding: .5rem;
+    background-color: #fff; }
+
+.top li {
+  display: inline;
+  padding-right: 1.5em; }
 
 .title h2 {
   color: #fff;
   -webkit-text-stroke: 1px #000; }
+
+.top li {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: .5em;
+  margin-right: 1em; }
+
+td:hover {
+  background-color: #000; }
+  td:hover a {
+    color: #fff; }
+    td:hover a:hover {
+      color: #FF3800; }
 
 /*# sourceMappingURL=application.css.map */

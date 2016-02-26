@@ -19,7 +19,6 @@ A responsive blog template which utilizes Sass and Bourbon.
 * Neat
 * Atom
 * Terminal
-* Google Fonts API
 * Font Awesome
 
 #####SUPERSTUDIO Blog can be viewed at http://patternandshape.github.io/superstudio

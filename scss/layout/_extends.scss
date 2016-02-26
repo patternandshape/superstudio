@@ -1,37 +1,19 @@
-// //nav styles
-//
-// %ul-bar {
-//   list-style: none;
-// }
-//
-// %li-style {
-//   display: inline;
-// }
-//
-// %a-style {
-//   text-decoration: none;
-//   color: $black;
-//   &:hover {
-//     color: $hover-nav;
-//   }
-// }
-//
-// %border-right-bottom {
-//   border-right: .6em solid $black;
-//   border-bottom: .6em solid $black;
-// }
-//
-// %centered {
-//   text-align: center;
-// }
-//
-// %underline {
-//   border-bottom: 2px solid $black;
-//   padding-bottom: .3vh;
-//   letter-spacing: .1vw;
-// }
-//
-// %hover-box {
-//   background-color: $black;
-//   color: $beige;
-// }
+// link styles
+
+%nav-style {
+  background-color: $white;
+  border: 1px solid $black;
+  padding: .5em;
+  margin-right: 1em;
+}
+
+%hover-box {
+  background-color: $black;
+  a {
+    color: $white;
+    
+    &:hover {
+      color: $red;
+    }
+  }
+}
