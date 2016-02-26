@@ -30,21 +30,9 @@ ul {
   list-style: none;
 }
 
-table {
-  border-collapse: collapse;
-  width: 25vw;;
-
-  th {
+p {
+  background-color: $white;
   border: 1px solid $black;
-  padding: 0.5rem;
-  background-color: $black;
-  color: $white;
-  text-align: left;
-  }
-
-  td {
-    border: 1px solid $black;
-    padding: .5rem;
-    background-color: $white;
-  }
+  padding: 2em 1em 2em 2em;
+  box-shadow: 4px 4px $black;
 }
