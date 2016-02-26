@@ -1,4 +1,5 @@
 .top {
+  display: none;
   li {
     @extend %nav-style;
     display: inline;

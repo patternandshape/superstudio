@@ -34,17 +34,32 @@ p {
   padding: 2em 1em 2em 2em;
   box-shadow: 4px 4px #000; }
 
-.top li {
-  display: inline;
-  padding-right: 1.5em; }
+.top {
+  display: none; }
+  .top li {
+    display: inline;
+    padding-right: 1.5em; }
 
+.title h1 {
+  font-size: 2.8em; }
 .title h2 {
   color: #fff;
-  -webkit-text-stroke: 1px #000; }
+  -webkit-text-stroke: 1px #000;
+  font-size: 2.8em;
+  padding-top: 1em; }
+.title .studio {
+  position: absolute;
+  right: 5%;
+  text-align: right; }
+.title .super {
+  position: absolute; }
 
 .container {
   width: 90vw;
   margin: 0 auto; }
+
+.wrap-post {
+  width: 100%; }
 
 .video-wrap {
   position: relative;
