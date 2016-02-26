@@ -18,11 +18,11 @@ body {
 
 a {
   text-decoration: none;
-  color: $black;
+  color: $super-black;
   font-weight: bold;
 
   &:hover {
-  color: $red;
+  color: $super-red;
 }
 }
 
@@ -31,15 +31,14 @@ ul {
 }
 
 hr {
+  @include margin(20% 0 0 0);
   width: 80%;
-  border: 2px solid $black;
-  margin-top: 20%;
-  margin-left: 0;
+  border: 1.5px solid $super-black;
 }
 
 p {
-  background-color: $white;
-  border: 1px solid $black;
+  background-color: $super-white;
+  border: 1px solid $super-black;
   padding: 2em 1em 2em 2em;
-  box-shadow: 4px 4px $black;
+  box-shadow: 4px 4px $super-black;
 }

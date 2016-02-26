@@ -16,7 +16,6 @@ A responsive blog template which utilizes Sass and Bourbon.
 * HTML
 * SCSS
 * Bourbon
-* Neat
 * Atom
 * Terminal
 * Font Awesome

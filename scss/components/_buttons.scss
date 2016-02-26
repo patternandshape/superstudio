@@ -1,0 +1,17 @@
+.toggle-circle {
+  @include border-top-radius(12px);
+  @include border-bottom-radius(12px);
+  width: 24px;
+	height: 24px;
+	background: $super-black;
+  position: relative;
+  margin-top: -1.5em;
+  &:hover {
+    cursor: pointer;
+  }
+  i {
+    @include margin(5px 0 0 8px);
+    color: $super-white;
+    position: absolute;
+  }
+}

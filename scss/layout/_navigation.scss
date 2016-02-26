@@ -5,4 +5,9 @@
     display: inline;
     padding-right: 1.5em;
   }
+  a {
+    &:hover {
+      color: $super-black;
+    }
+  }
 }

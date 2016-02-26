@@ -6,9 +6,9 @@ $red: #FF3800;
 
 // // Functional color variables
 
-// $border: $black;
-// $hover-nav: $grey;
-// $hover-main: $beige;
+$super-black: $black;
+$super-white: $white;
+$super-red: $red;
 
 
 // // Font stacks
@@ -18,4 +18,3 @@ $stack-helv: 'Helvetica', sans-serif;
 // // Media query breakpoints
 //
 $brk-medium: '(min-width: 751px)';
-// $brk-large: '(min-width: 1024px)';

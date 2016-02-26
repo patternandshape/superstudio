@@ -28,15 +28,17 @@
 .post-header {
   h3 {
     text-align: right;
-    color: $red;
+    color: $super-red;
+    font-weight: normal;
+		margin-top: -.7em;
   }
 }
 
 .post-footer {
   h3 {
     text-align: right;
-    color: $red;
-    margin-top: -1.1em;
+    color: $super-red;
+    margin-top: -.7em;
   }
   &:hover {
     cursor: pointer;
@@ -56,17 +58,17 @@ table {
   margin-bottom: -1.2em;
 
   th {
-  border: 1px solid $black;
+  border: 1px solid $super-black;
   padding: 0.4rem;
-  background-color: $black;
-  color: $white;
+  background-color: $super-black;
+  color: $super-white;
   text-align: left;
   }
 
   td {
     border: 1px solid $black;
     padding: .4rem;
-    background-color: $white;
+    background-color: $super-white;
   }
 }
 
