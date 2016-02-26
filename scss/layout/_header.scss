@@ -1,13 +1,20 @@
 .title {
   h1 {
-    font-size: 2.8em;
+    @include text(2.8em);
     margin-top: -.5em;
+
+    @media #{$brk-medium}{
+      font-size: 5em;
+    }
   }
   h2 {
-  color: $white;
-  -webkit-text-stroke: 1px $super-black;
-  font-size: 2.8em;
-  padding-top: 1em;
+    @include text(2.8em, $color: $super-white);
+    -webkit-text-stroke: 1px $super-black;
+    padding-top: 1em;
+
+    @media #{$brk-medium}{
+      font-size: 5em;
+    }
   }
   .studio {
     position: absolute;
@@ -16,6 +23,10 @@
   }
   .super {
     position: absolute;
+  }
+
+  @media #{$brk-medium}{
+    margin-left: 7%;
   }
 }
 

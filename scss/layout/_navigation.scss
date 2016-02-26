@@ -5,9 +5,29 @@
     display: inline;
     padding-right: 1.5em;
   }
-  a {
-    &:hover {
-      color: $super-black;
+  ul {
+    @media #{$brk-medium}{
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 5px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
     }
   }
+  .search {
+    @media #{$brk-medium}{
+      float:right;
+      margin-top: -1.3em;
+    }
+  }
+
+  a {
+    &:hover {
+      color: $super-red;
+    }
+  }
+
+  @media #{$brk-medium}{
+      display:inline;
+    }
 }

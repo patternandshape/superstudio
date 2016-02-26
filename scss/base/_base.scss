@@ -22,7 +22,7 @@ a {
   font-weight: bold;
 
   &:hover {
-  color: $super-red;
+  color: $super-white;
 }
 }
 
@@ -34,11 +34,15 @@ hr {
   @include margin(20% 0 0 0);
   width: 80%;
   border: 1.5px solid $super-black;
+
+  @media #{$brk-medium}{
+      width: 90%;
+    }
 }
 
 p {
+  @include padding(2em 1em 2em 2em);
   background-color: $super-white;
   border: 1px solid $super-black;
-  padding: 2em 1em 2em 2em;
   box-shadow: 4px 4px $super-black;
 }

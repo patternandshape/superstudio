@@ -8,6 +8,7 @@
   margin-top: -1.5em;
   &:hover {
     cursor: pointer;
+    background-color: $super-red
   }
   i {
     @include margin(5px 0 0 8px);
