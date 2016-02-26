@@ -9,3 +9,26 @@
 @-ms-viewport{
   width: device-width;
 }
+
+body {
+  background-image: url('../img/grid.jpg');
+  background-repeat: repeat;
+  font-family: $stack-helv;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+
+  &:hover {
+  color: $red;
+}
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
