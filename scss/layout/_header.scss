@@ -1,6 +1,7 @@
 .title {
   h1 {
     font-size: 2.8em;
+    margin-top: -.5em;
   }
   h2 {
   color: $white;
@@ -15,5 +16,32 @@
   }
   .super {
     position: absolute;
+  }
+}
+
+.post-header {
+  h3 {
+    text-align: right;
+    margin-top: -.95em;
+  }
+}
+
+.toggle-circle {
+  width: 24px;
+	height: 24px;
+	background: $black;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+  position: relative;
+  margin-top: -1.5em;
+  &:hover {
+    cursor: pointer;
+  }
+  i {
+    color: $white;
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 5px;
   }
 }

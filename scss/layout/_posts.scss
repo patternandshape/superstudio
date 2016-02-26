@@ -12,10 +12,48 @@
   }
 }
 
+.post {
+  h3 {
+    padding: 0 0 0 .5em;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
+  }
+}
+
+.post-header {
+  h3 {
+    text-align: right;
+    color: $red;
+  }
+}
+
+.post-footer {
+  h3 {
+    text-align: right;
+    color: $red;
+    margin-top: -1.1em;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+.post-meta2 {
+  table {
+    margin-top: 1.2em;
+  }
+}
 
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: -1.2em;
 
   th {
   border: 1px solid $black;

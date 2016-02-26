@@ -30,6 +30,13 @@ ul {
   list-style: none;
 }
 
+hr {
+  width: 80%;
+  border: 2px solid $black;
+  margin-top: 20%;
+  margin-left: 0;
+}
+
 p {
   background-color: $white;
   border: 1px solid $black;
