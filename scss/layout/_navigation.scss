@@ -6,6 +6,7 @@
     padding-right: 1.5em;
   }
   ul {
+
     @media #{$brk-medium}{
     -webkit-margin-before: 1em;
     -webkit-margin-after: 0em;
@@ -15,9 +16,14 @@
     }
   }
   .search {
+
     @media #{$brk-medium}{
       float:right;
       margin-top: -1.3em;
+      &:hover {
+        cursor: pointer;
+        color: $super-red
+      }
     }
   }
 
@@ -28,6 +34,6 @@
   }
 
   @media #{$brk-medium}{
-      display:inline;
-    }
+    display:inline;
+  }
 }

@@ -1,11 +1,4 @@
-// link styles
-
-%nav-style {
-  background-color: $super-white;
-  border: 1px solid $super-black;
-  padding: .5em;
-  margin-right: 1em;
-}
+// hover styles
 
 %hover-box {
   background-color: $super-black;
@@ -16,4 +9,13 @@
       color: $super-red;
     }
   }
+}
+
+// link styles
+
+%nav-style {
+  background-color: $super-white;
+  border: 1px solid $super-black;
+  padding: .5em;
+  margin-right: 1em;
 }

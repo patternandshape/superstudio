@@ -1,3 +1,10 @@
+.post-header {
+  h3 {
+    text-align: right;
+    margin-top: -.95em;
+  }
+}
+
 .title {
   h1 {
     @include text(2.8em);
@@ -27,12 +34,5 @@
 
   @media #{$brk-medium}{
     margin-left: 7%;
-  }
-}
-
-.post-header {
-  h3 {
-    text-align: right;
-    margin-top: -.95em;
   }
 }

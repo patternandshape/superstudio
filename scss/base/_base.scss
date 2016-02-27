@@ -10,12 +10,6 @@
   width: device-width;
 }
 
-body {
-  background-image: url('../img/grid.jpg');
-  background-repeat: repeat;
-  font-family: $stack-helv;
-}
-
 a {
   text-decoration: none;
   color: $super-black;
@@ -23,11 +17,13 @@ a {
 
   &:hover {
   color: $super-white;
-}
+  }
 }
 
-ul {
-  list-style: none;
+body {
+  background-image: url('../img/grid.jpg');
+  background-repeat: repeat;
+  font-family: $stack-helv;
 }
 
 hr {
@@ -36,8 +32,8 @@ hr {
   border: 1.5px solid $super-black;
 
   @media #{$brk-medium}{
-      width: 90%;
-    }
+    width: 90%;
+  }
 }
 
 p {
@@ -45,4 +41,8 @@ p {
   background-color: $super-white;
   border: 1px solid $super-black;
   box-shadow: 4px 4px $super-black;
+}
+
+ul {
+  list-style: none;
 }
