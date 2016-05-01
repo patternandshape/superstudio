@@ -1,6 +1,6 @@
 # SUPERSTUDIO Blog
 
-##### A responsive blog template for SUPERSTUDIO based on the RO LU blog (http://www.rolublog.com) and using Sass.
+##### A responsive blog template for SUPERSTUDIO based on the RO LU blog (http://www.rolublog.com) and using SCSS.
 
 February 26, 2016
 
@@ -16,8 +16,6 @@ A responsive blog template which utilizes Sass and Bourbon.
 * HTML
 * SCSS
 * Bourbon
-* Atom
-* Terminal
 * Font Awesome
 
 #####SUPERSTUDIO Blog can be viewed at http://patternandshape.github.io/superstudio
@@ -26,4 +24,4 @@ A responsive blog template which utilizes Sass and Bourbon.
 
 *This software is licensed under the MIT license.*
 
-&copy;2016 **Molly Curtin**
+&copy; 2016 **Molly Curtin**
